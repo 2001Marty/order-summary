@@ -2,7 +2,8 @@
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
-## Here is my solution live: http://syberia.mysteria.cz/frontend-mentor/order-summary-component-main/
+## Here is my solution live: 
+---><a href="http://syberia.mysteria.cz/frontend-mentor/order-summary-component-main/"> ✔✔✔ </a> <---
 
 ## Welcome! 👋
 
