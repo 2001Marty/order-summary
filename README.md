@@ -2,6 +2,8 @@
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
+## Here is my solution live: http://syberia.mysteria.cz/frontend-mentor/order-summary-component-main/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
