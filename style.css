@@ -1,0 +1,126 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: hsl(224, 23%, 55%);
+}
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 98%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: hsl(223, 47%, 23%);
+}
+h3 {
+    color: hsl(223, 47%, 23%);
+}
+.button1 {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    box-shadow: 5px 15px 7px #05040415;
+}
+.button1:active{
+    background-color: hsl(224, 23%, 55%);
+}
+button {
+    border-radius: 10px;
+    padding: 15px;
+    width: 75%;
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+.button2 {
+    background-color: white;
+}
+.button2:active{
+    color: hsl(223, 47%, 23%);
+}
+.AnualPlanConteiner {
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    width:  312.5px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+p {
+    width: 75%;
+    font: size 16px;
+}
+.wrapper {
+    align-items: center;
+    text-align: center;
+    margin: 125px auto auto;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    row-gap: 20px;
+    padding-bottom: 30px;
+    background-color: white;
+    box-shadow: 15px 20px 15px #05040415;
+}
+.heroimg {
+    border-radius: 25px 25px 0 0;
+}
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+a{
+    color: hsl(245, 75%, 52%);
+}
+a:active{
+    color: hsl(224, 23%, 55%);
+}
+.AnualPlanConteiner img{
+    margin-right: 15px;
+}
+.AnualPlanConteiner div:first-child{
+    display: flex;
+    text-align: left;   
+}
+.AnualPlanConteiner div:last-child{
+    align-self: center;
+}
+@media only screen and (max-width:600px){
+    body{
+        background-image: url("images/pattern-background-mobile.svg");
+        background-color: hsl(225, 100%, 98%);
+        background-size: cover;
+        background-position-y: -250px;
+        background-repeat: no-repeat;
+        width: max;
+    }
+    .AnualPlanConteiner{
+        width: 69%;
+        font-size: 12px;
+        margin: 5px;
+        padding: 10px;
+    }
+    .AnualPlanConteiner h3{
+        font-size: 14px;
+    }
+    .wrapper{
+        width: 281.25px;
+        margin-top: 15%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .heroimg{
+        width: 100%;
+    }   
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 13px;
+    }
+}
